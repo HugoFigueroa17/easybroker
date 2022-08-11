@@ -1,0 +1,87 @@
+.dropdown-item.active, .dropdown-item:active {
+    background-color:  #53b257!important;
+}
+
+div.dt-button-collection {
+    position: unset !important;
+}
+
+table.cls-table td{
+    vertical-align: middle !important;
+    padding-top: 0.12em !important;
+    padding-bottom: 0.12em !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+
+.cls-activo{
+    color: #00ac69;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cls-activo:active, .cls-activo:visited{
+    color: #00ac69 !important;
+}
+
+.cls-activo:hover{
+    color: rgba(0, 172, 105, 0.51)
+}
+
+.cls-baja{
+    color: #e81500;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cls-baja:hover{
+    color: rgba(232, 21, 0, 0.51);
+}
+
+.cls-eliminar{
+    color: #e81500;
+    font-weight: bold;
+}
+
+.cls-eliminar:hover{
+    color: rgba(232, 21, 0, 0.51);
+}
+
+.cls-btnAcciones{
+    height: 1.6rem !important;
+    width: 1.6rem !important;
+    min-width: 1.6rem !important;
+}
+
+input[type="search"]{
+    border: 1px solid #ddd !important;
+    border-radius: 25px !important;
+    height: 32px !important;
+    width: 300px !important;
+}
+input[type="search"]:hover{
+    border: 1px solid #54b358 !important;
+}
+input[type="search"]:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.59) !important;
+}
+input[type="search"]::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.59) !important;
+}
+input[type="search"]:-moz-placeholder {
+    color: rgba(0, 0, 0, 0.59) !important;
+}
+input[type="search"]::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.59) !important;
+}
+input[type="search"]:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.59) !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+     text-align: center !important;
+}
+
+.dt-buttons {
+    float: right!important;
+}

@@ -1,0 +1,27 @@
+
+/**ERROR LABEL**/
+.error{
+  font-size: 13px !important;
+  max-width: 250px !important;
+  margin: 0 auto 30px auto !important;
+  padding: 9px !important;
+  border-radius: 10px !important;
+  text-align: center !important;
+  transform: none !important;
+  left: auto !important;
+  position: unset !important;
+}
+
+@media screen and (min-width: 1304px){
+
+
+  .error:before{
+    position: absolute !important;
+    content: "" !important;
+    left: -20px !important;
+    margin-left: -4px !important;
+    transform: rotate(-180deg) !important;
+  }
+
+}/*992px*/
+
