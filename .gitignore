@@ -4,10 +4,10 @@
 #---------------------
 
 
-/.env
-/app/Config/App.php
-/app/Config/Database.php
-/app/Helpers/gcrud_helper.php
+#/.env
+#/app/Config/App.php
+#/app/Config/Database.php
+#/app/Helpers/gcrud_helper.php
 
 /assets/uploads/*
 /!assets/uploads/.gitkeep
