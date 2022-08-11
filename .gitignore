@@ -142,3 +142,4 @@ php_errors.log
 
 /.htaccess
 
+/vendor
